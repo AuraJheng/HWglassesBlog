@@ -1,0 +1,135 @@
+*{
+    outline: 1px dotted #666;
+}
+html{
+    font-size: 16px;
+}
+a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.flex{
+    display: flex;
+}
+.jcsb{
+    justify-content: space-between;
+}
+.bgc-red{
+    background-color: #AA0601;
+}
+.darkred{
+    background-color: #650300;
+}
+.pt96-pb64{
+    padding-top: 96px;
+    padding-bottom: 64px;
+}
+.mb32{
+    margin-bottom: 32px;
+}
+.pb60{
+    padding-bottom: 60px;
+}
+.wd636{
+    width: 636px;
+}
+.mb80{
+    margin-bottom: 80px;
+}
+.pt48-pb32{
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+.pb32{
+    padding-bottom: 32px;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 72px;
+    font-weight: bold;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+}
+h2{
+    font-size: 2rem;
+    line-height: 48px;
+    color: #650300;
+}
+p{
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+.more{
+    font-size: 2.25rem;
+    line-height: 54px;
+}
+.header img{
+    width: 80px;
+    height: auto;
+    display: block;
+    padding: 12px 0;
+}
+.header a{
+    line-height: 80px;
+    padding: 0 32px;
+}
+.header .pr0{
+    padding-right: 0;
+}
+.list a{
+    padding: 0 24px;
+    line-height: 56px;
+}
+.list .pl0{
+    padding-left: 0;
+}
+.content img{
+    width: 636px;
+    height: 400px;
+}
+.content .mb16{
+    margin-bottom: 16px;
+}
+.content .bold{
+    font-weight: bold;
+}
+.content .object{
+    flex-direction: column;
+}
+.content .d-ib{
+    display: inline-block;
+}
+.content .fzsm{
+    font-size: 1rem;
+    line-height: 30px;
+}
+.content .more{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.content a{
+    width: 110px;
+    color: #650300;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.page .jcc{
+    justify-content: center;
+}
+.page a{
+    font-size: 19px;
+    color: #555555;
+    border: 1px solid #555555;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer p, .footer a{
+    color: #fff;
+}
