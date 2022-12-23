@@ -1,6 +1,6 @@
-*{
+/* *{
     outline: 1px dotted #666;
-}
+} */
 html{
     font-size: 16px;
 }
@@ -46,8 +46,15 @@ a{
     padding-top: 48px;
     padding-bottom: 32px;
 }
+.mb24{
+    margin-bottom: 24px;
+}
+.mb8{
+    margin-bottom: 8px;
+}
 .pb32{
     padding-bottom: 32px;
+    border-bottom: 1px solid #fff;
 }
 
 h1{
@@ -87,12 +94,12 @@ p{
     padding: 0 24px;
     line-height: 56px;
 }
-.list .pl0{
-    padding-left: 0;
-}
 .content img{
-    width: 636px;
-    height: 400px;
+    width: 49%;
+    height: auto;
+}
+.content .object{
+    width: 49%;
 }
 .content .mb16{
     margin-bottom: 16px;
@@ -109,6 +116,9 @@ p{
 .content .fzsm{
     font-size: 1rem;
     line-height: 30px;
+}
+.content .tajf{
+    text-align: justify;
 }
 .content .more{
     flex-direction: row;
@@ -132,4 +142,28 @@ p{
 }
 .footer p, .footer a{
     color: #fff;
+}
+.footer .link a{
+    line-height: 48px;
+    padding: 0 12px;
+}
+.footer .connect p{
+    font-size: 2.25em;
+    line-height: 56px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.footer .copy a{
+    padding-left: 48px;
+    line-height: 30px;
+}
+.list .pl0, .footer .link .pl0{
+    padding-left: 0;
+}
+@media (max-width:992px) {
+    .container{
+        width: 696px;
+    }
+}
+@media (max-width:768px) {
+    
 }
