@@ -1,6 +1,6 @@
-/* *{
+*{
     outline: 1px dotted #666;
-} */
+}
 html{
     font-size: 16px;
 }
@@ -87,9 +87,15 @@ p{
     line-height: 80px;
     padding: 0 32px;
 }
-.header .pr0{
-    padding-right: 0;
+.header a, .list a{
+    font-size: 1.25rem;
 }
+.list a{
+    font-weight: bold;
+}
+/* .header .pr0{
+    padding-right: 0;
+} */
 .list a{
     padding: 0 24px;
     line-height: 56px;
@@ -147,6 +153,11 @@ p{
     line-height: 48px;
     padding: 0 12px;
 }
+.footer .iconimg img{
+    display: block;
+    width: 48px;
+    height: 48px;
+}
 .footer .connect p{
     font-size: 2.25em;
     line-height: 56px;
@@ -159,11 +170,22 @@ p{
 .list .pl0, .footer .link .pl0{
     padding-left: 0;
 }
+.header .pr0, .footer .iconimg .pr0{
+    padding-right: 0;
+}
 @media (max-width:992px) {
     .container{
         width: 696px;
     }
+    .content img, .content .object{
+        width: 49%;
+    }
+    .content p{
+        font-size: 1rem;
+    }
 }
-@media (max-width:768px) {
-    
+@media (max-width:767px) {
+    .container{
+        width: 349px;
+    }
 }
