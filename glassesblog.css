@@ -1,6 +1,6 @@
-*{
+/* *{
     outline: 1px dotted #666;
-}
+} */
 html{
     font-size: 16px;
 }
@@ -100,9 +100,15 @@ p{
     padding: 0 24px;
     line-height: 56px;
 }
+.list i{
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    line-height: 56px;
+}
 .content img{
     width: 49%;
-    height: auto;
+    height: 100%;
 }
 .content .object{
     width: 49%;
@@ -175,11 +181,11 @@ p{
 }
 @media (max-width:992px) {
     .container{
-        width: 696px;
+        max-width: 696px;
     }
-    .content img, .content .object{
+    /* .content img, .content .object{
         width: 49%;
-    }
+    } */
     .content p{
         font-size: 1rem;
     }
